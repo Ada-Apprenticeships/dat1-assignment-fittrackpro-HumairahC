@@ -200,6 +200,25 @@ Create the following tables in your database. We have provided a file `schema.sq
 | description      |
 | staff_id         |
 
+CR
+-- TODO: Create the following tables:
+-- 1. locations /
+-- 2. members/
+-- 3. staff/
+-- 4. equipment/
+-- 5. classes/
+-- 6. class_schedule/
+-- 7. memberships/
+-- 8. attendance/
+-- 9. class_attendance/
+-- 10. payments/
+-- 11. personal_training_sessions/
+-- 12. member_health_metrics/
+-- 13. equipment_maintenance_log/
+
+
+-- After creating the tables, you can import the sample data using:
+-- `.read data/sample_data.sql` in a sql file or `npm run import` in the terminal
 Once you've created your tables, you'll need to run this and create some data to add into your database to check that your tables are defined correctly.
 
 ### Database Import
